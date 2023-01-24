@@ -5,11 +5,11 @@ multi-layer perceptron neural network(MLP) and Convolutional neural
 network(CNN) By implementing the Keras library
 
 📚My reference is this article:
-An anatomization on breast cancer detection and diagnosis employing multi-layer perceptron neural network (MLP) and Convolutional neural network (CNN)
+<tr>"An anatomization on breast cancer detection and diagnosis employing multi-layer perceptron neural network (MLP) and Convolutional neural network (CNN)
 Meha Desai, Manan Shah;
 -Department of Electronics and Instrumentation Engineering, School of Electronics and Electrical Engineering, Vellore Institute of Technology, Tamil Nadu, India
 -Department of Chemical Engineering, School of Technology, Pandit Deendayal Petroleum University, Gandhinagar, Gujarat, India
-
+</tr>
 
 <p dir="auto">First of all install prerequisites with <code>pip install -r requirements.txt</code> then you can see experiments in <code>notebook.ipynb</code>💻
 
