@@ -1,8 +1,8 @@
 # ML Methods [on breast cancer detection employing MLP & CNN with Keras](https://github.com/Sofia-Amouei/ML-Methods-on-breast-cancer-detection-employing-MLP-CNN-with-Keras-/files/10488662/default.pdf)
 
-A Machine Learning project for breast cancer detection and diagnosis employing
+📑A Machine Learning project for breast cancer detection and diagnosis employing
 multi-layer perceptron neural network(MLP) and Convolutional neural
-network(CNN) By implementing the Keras library📑
+network(CNN) By implementing the Keras library
 
 📚My reference is this article:
 An anatomization on breast cancer detection and diagnosis employing multi-layer perceptron neural network (MLP) and Convolutional neural network (CNN)
