@@ -5,5 +5,5 @@ multi-layer perceptron neural network and Convolutional neural
 network By implementing the Keras library📑
 First of all install prerequisites with pip install -r requirements.txt then you can see experiments in notebook.ipynb💻
 
-[Report]
-(https://github.com/Sofia-Amouei/ML-Methods-on-breast-cancer-detection-employing-MLP-CNN-with-Keras-/files/10488801/Methods.docx)
+Report
+
