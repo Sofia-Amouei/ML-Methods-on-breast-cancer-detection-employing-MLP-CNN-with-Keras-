@@ -6,9 +6,4 @@ network(CNN) By implementing the Keras library📑
 
 First of all install prerequisites with pip install -r requirements.txt then you can see experiments in notebook.ipynb💻
 
-[Report]
-(Methods	Best Accuracy
-MLP	      0.9385964912280702
-CNN	      0.9649122807017544
-Keras	    0.9714…
-)
+
