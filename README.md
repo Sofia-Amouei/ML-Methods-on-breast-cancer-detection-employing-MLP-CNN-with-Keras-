@@ -11,7 +11,7 @@ Meha Desai, Manan Shah;
 -Department of Chemical Engineering, School of Technology, Pandit Deendayal Petroleum University, Gandhinagar, Gujarat, India
 </tr>
 
-<p dir="auto">First of all install prerequisites with <code>pip install -r requirements.txt</code> then you can see experiments in <code>notebook.ipynb</code>💻
+<p dir="auto">💻First of all install prerequisites with <code>pip install -r requirements.txt</code> then you can see experiments in <code>notebook.ipynb</code>
 
 # Report
 <table>
