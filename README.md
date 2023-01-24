@@ -10,10 +10,9 @@ Meha Desai, Manan Shah;
 -Department of Electronics and Instrumentation Engineering, School of Electronics and Electrical Engineering, Vellore Institute of Technology, Tamil Nadu, India
 -Department of Chemical Engineering, School of Technology, Pandit Deendayal Petroleum University, Gandhinagar, Gujarat, India
 </tr>
-<br>
-<p dir="auto">💻First of all install prerequisites with <code>pip install -r requirements.txt</code> then you can see experiments in <code>notebook.ipynb</code>
+
+<p dir="auto"><br>💻First of all install prerequisites with <code>pip install -r requirements.txt</code> then you can see experiments in </br><code>notebook.ipynb</br></code>
 </p>
-</br>
 
 
 # Report
