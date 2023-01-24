@@ -3,22 +3,21 @@ keras.models import Sequential
 keras.layers import Dense
 keras.layers import LeakyReLU
 pandas as pd
-sklearn.svm import SVC
-numpy as np # linear algebra
 pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+numpy as np # linear algebra
 matplotlib.pyplot as plt
 seaborn as sns
 sklearn import metrics
 sklearn.datasets import load_breast_cancer
 sklearn.preprocessing import StandardScaler
 sklearn.neural_network import MLPClassifier
+sklearn.svm import SVC
 tensorflow as tf
 tensorflow import keras
 tensorflow.keras import Sequential
 tensorflow.keras.layers import Flatten,Dense,Dropout,BatchNormalization,Conv1D,MaxPool1D
 tensorflow.keras.preprocessing.image import ImageDataGenerator
 tensorflow.keras.optimizers import Adam
-seaborn as sns
 
 # Define the CNN model: we are going to define a CNN model with the following architecture:
  1. Convolutional layer with 32 filters and a kernel size of 3
