@@ -4,7 +4,6 @@
   "metadata": {
     "colab": {
       "name": "BreastCancerDetection.ipynb",
-      "provenance": [],
       "collapsed_sections": []
     },
     "kernelspec": {
