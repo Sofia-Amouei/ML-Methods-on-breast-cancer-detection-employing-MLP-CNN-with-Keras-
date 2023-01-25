@@ -416,7 +416,7 @@
    },
    "source": [
     "Model_Accuracy:\n",
-    "__results___19_0.png"
+    "![__results___19_0](https://user-images.githubusercontent.com/120085689/214452468-15a1da0b-bd2b-4c47-9ee2-fcf41082285d.png)"
     "\n",
     "Model_Loss:\n",
     "__results___19_1.png"
