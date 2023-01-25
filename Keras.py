@@ -51,9 +51,6 @@
         "data.keys()"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "fXTDn6i8Cspt",
         "outputId": "b855ca1a-797b-454e-808e-e3729126fb26"
       },
@@ -77,9 +74,6 @@
         "print(data['DESCR'])"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "25PKNew1DoWB",
         "outputId": "d1cf9a42-2156-4472-b521-9ea6496ae4f7"
       },
@@ -91,7 +85,7 @@
           "text": [
             ".. _breast_cancer_dataset:\n",
             "\n",
-            "Breast cancer wisconsin (diagnostic) dataset\n",
+            "Breast cancer diagnostic (Meha Desai , Manan Shah , 1- Department of Electronics and Instrumentation Engineering, School of Electronics and Electrical Engineering, Vellore Institute of Technology, Tamil Nadu, India 2- Department of Chemical Engineering, School of Technology, Pandit Deendayal Petroleum University, Gandhinagar, Gujarat, India) Dataset\n",
             "--------------------------------------------\n",
             "\n",
             "**Data Set Characteristics:**\n",
@@ -162,51 +156,12 @@
             "\n",
             "    :Class Distribution: 212 - Malignant, 357 - Benign\n",
             "\n",
-            "    :Creator:  Dr. William H. Wolberg, W. Nick Street, Olvi L. Mangasarian\n",
+            "    :Creator: Meha Desai , Manan Shah , Indian Professors\n",
             "\n",
-            "    :Donor: Nick Street\n",
+            "    :Donor: Clinical eHealth\n",
             "\n",
-            "    :Date: November, 1995\n",
+            "    :Date: October, 2022\n",
             "\n",
-            "This is a copy of UCI ML Breast Cancer Wisconsin (Diagnostic) datasets.\n",
-            "https://goo.gl/U2Uwz2\n",
-            "\n",
-            "Features are computed from a digitized image of a fine needle\n",
-            "aspirate (FNA) of a breast mass.  They describe\n",
-            "characteristics of the cell nuclei present in the image.\n",
-            "\n",
-            "Separating plane described above was obtained using\n",
-            "Multisurface Method-Tree (MSM-T) [K. P. Bennett, \"Decision Tree\n",
-            "Construction Via Linear Programming.\" Proceedings of the 4th\n",
-            "Midwest Artificial Intelligence and Cognitive Science Society,\n",
-            "pp. 97-101, 1992], a classification method which uses linear\n",
-            "programming to construct a decision tree.  Relevant features\n",
-            "were selected using an exhaustive search in the space of 1-4\n",
-            "features and 1-3 separating planes.\n",
-            "\n",
-            "The actual linear program used to obtain the separating plane\n",
-            "in the 3-dimensional space is that described in:\n",
-            "[K. P. Bennett and O. L. Mangasarian: \"Robust Linear\n",
-            "Programming Discrimination of Two Linearly Inseparable Sets\",\n",
-            "Optimization Methods and Software 1, 1992, 23-34].\n",
-            "\n",
-            "This database is also available through the UW CS ftp server:\n",
-            "\n",
-            "ftp ftp.cs.wisc.edu\n",
-            "cd math-prog/cpo-dataset/machine-learn/WDBC/\n",
-            "\n",
-            ".. topic:: References\n",
-            "\n",
-            "   - W.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction \n",
-            "     for breast tumor diagnosis. IS&T/SPIE 1993 International Symposium on \n",
-            "     Electronic Imaging: Science and Technology, volume 1905, pages 861-870,\n",
-            "     San Jose, CA, 1993.\n",
-            "   - O.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and \n",
-            "     prognosis via linear programming. Operations Research, 43(4), pages 570-577, \n",
-            "     July-August 1995.\n",
-            "   - W.H. Wolberg, W.N. Street, and O.L. Mangasarian. Machine learning techniques\n",
-            "     to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994) \n",
-            "     163-171.\n"
           ]
         }
       ]
@@ -217,9 +172,6 @@
         "data['data'].shape"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "6CYuO3uAFC2H",
         "outputId": "73becc47-5f75-4c70-8285-1becf7675995"
       },
@@ -243,9 +195,6 @@
         "data['feature_names']"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "973UHwMOFNS2",
         "outputId": "53c93776-859b-4d11-a3fb-e3f4750b7095"
       },
@@ -278,9 +227,6 @@
         "data['data'][0]"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "IwizKx3xFkaX",
         "outputId": "1ada0c55-b4f7-4975-b3ef-16a28ad39d2a"
       },
@@ -311,9 +257,6 @@
         "  j+=1"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "vJYsqYcwKAf5",
         "outputId": "b6de6977-632c-411b-dec1-ae76ec158cce"
       },
@@ -363,9 +306,6 @@
         "data['target']"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "30hpq-p-LG00",
         "outputId": "b8108020-9491-4e4d-da50-109238a97123"
       },
@@ -414,9 +354,6 @@
         "data['target_names']"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "cXfGdJ17Lhs8",
         "outputId": "35b77ffc-c1a6-4820-9f5e-4c449f6184c9"
       },
@@ -440,10 +377,6 @@
         "data['filename']"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 35
-        },
         "id": "UCJvX_UuMM7v",
         "outputId": "ff708ef5-03b4-4369-c5b1-9caad51e139f"
       },
@@ -492,9 +425,6 @@
         "feature.shape\n"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "cJ14NAw0NTXc",
         "outputId": "122d5d38-b97e-41ad-c4cb-f9c37ecab650"
       },
@@ -518,9 +448,6 @@
         "label.shape"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "QZqdeURJNTbY",
         "outputId": "1c064d1b-3f75-41b1-b27c-2330be8304d8"
       },
@@ -560,9 +487,6 @@
         "  j+=1"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "YA3PcEt_P76D",
         "outputId": "ec2780d8-0ce8-4d56-fd1a-b931dc351e9f"
       },
@@ -613,9 +537,6 @@
         "print(data['target_names'][label[0]])"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "eNot0XxPP8LV",
         "outputId": "e33d4696-a4c1-4c37-80ea-328385575d64"
       },
@@ -655,10 +576,6 @@
         "df"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 523
-        },
         "id": "bV-everRP8TE",
         "outputId": "7de257e6-bc5f-40c9-8658-e584c426d978"
       },
@@ -1160,9 +1077,6 @@
       ],
       "metadata": {
         "id": "Vmn-p32qP8dC",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "dcfdfe0f-3ea4-46b2-d823-0533e1759bd3"
       },
       "execution_count": 231,
@@ -1203,9 +1117,6 @@
         "model.fit(x_train, y_train, batch_size=1, epochs=10, validation_data=(x_val, y_val))"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "ceoVIuRVGlby",
         "outputId": "6d686a55-694f-4200-8d3c-02ae6d89a909"
       },
@@ -1256,9 +1167,6 @@
       ],
       "metadata": {
         "id": "HETofOA6P8kx",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "746fcc4b-9d05-445b-b73e-37f2e111fc16"
       },
       "execution_count": 234,
@@ -1287,9 +1195,6 @@
       ],
       "metadata": {
         "id": "NIr1PG-ZP8oV",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "2d8ee904-f81e-4ec3-a49a-0ca1f602d8d1"
       },
       "execution_count": 235,
@@ -1319,9 +1224,6 @@
         "y_test"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "Dz0DKBJlJnP_",
         "outputId": "20284ad8-b3af-49ab-9100-b89c4827befd"
       },
@@ -1346,9 +1248,6 @@
         "y_val"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "iag4cmc7Jnaa",
         "outputId": "74a85b99-4206-40f0-ce43-45321abdd5eb"
       },
@@ -1385,9 +1284,6 @@
       ],
       "metadata": {
         "id": "DxGZRo7fL2fU",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "edfba3d7-85d2-48cf-a523-c1a894d4ba1c"
       },
       "execution_count": 239,
@@ -1411,9 +1307,6 @@
       ],
       "metadata": {
         "id": "RbfOtPesL2k-",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "e97efd91-9824-4e29-a7bc-15ac9b544b3d"
       },
       "execution_count": 240,
@@ -1456,9 +1349,6 @@
       ],
       "metadata": {
         "id": "8K6MsDeCL2pR",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "45f69a46-7b08-4e91-fb67-14e549848fbc"
       },
       "execution_count": 241,
@@ -1568,9 +1458,6 @@
       ],
       "metadata": {
         "id": "13VevftxL2tJ",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "outputId": "a3370a9b-f396-4e1c-8a43-536e815e50d2"
       },
       "execution_count": 242,
@@ -1593,9 +1480,6 @@
         "model.predict(sample)"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "Mbw-pYYV5pNj",
         "outputId": "44a77287-65d6-4cad-8078-ead71833171a"
       },
@@ -1619,9 +1503,6 @@
         "x_test[0]"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "ZYdz5VoX5kGD",
         "outputId": "8f9beb25-449b-4b46-e495-276f4a03eef5"
       },
@@ -1650,9 +1531,6 @@
         "y_test[0]"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "6BSh_k365kMi",
         "outputId": "452c7374-7203-414a-e9fc-c96a8158757e"
       },
@@ -1676,9 +1554,6 @@
         "x_test[10]"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "3UPeCUnc5kSJ",
         "outputId": "a1d28e1b-1125-4c98-925d-5b83297e9920"
       },
@@ -1707,9 +1582,6 @@
         "y_test[10]"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
         "id": "9L2_5-JO5kWk",
         "outputId": "b0c5603d-c058-49cb-d95d-b3688be21111"
       },
