@@ -3,10 +3,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-   "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [1],
    "source": [
     "# Implementing CNN on breast cancer detection\n"
    ]
@@ -14,10 +12,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "outputs": [],
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "outputs": [2],
+   "metadata": {},
    "source": [
     "import numpy as np\n",
     "import pandas as pd\n",
@@ -39,10 +35,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "outputs": [],
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "outputs": [3],
+   "metadata": {},
    "source": [
     "df = pd.read_csv('../input/breast-cancer-wisconsin-data/data.csv')\n",
     "df.head()\n"
@@ -52,12 +46,11 @@
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
-     "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
     "vscode": {
      "languageId": "javascript"
     }
    },
-   "outputs": [],
+   "outputs": [4],
    "source": [
     "\tid\t    diagnosis\t  radius_mean\t texture_mean\t perimeter_mean\t  area_mean\t  smoothness_mean\t compactness_mean\tconcavity_mean\t  concave_points_mean\t...\t  texture_worst\t   perimeter_worst\t  area_worst\tsmoothness_worst\tcompactness_worst\t concavity_worst\tconcave_points_worst\tsymmetry_worst\tfractal_dimension_worst\t  Unnamed: 32\n",
     "0\t842302\t  M\t       17.99\t     10.38\t         122.80\t        1001.0\t      0.11840\t        0.27760\t             0.3001\t            0.14710\t        ...\t      17.33\t            184.60\t        2019.0\t         0.1622\t              0.6656\t          0.7119\t           0.2654\t            0.4601\t            0.11890\t              NaN\n",
@@ -70,9 +63,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "5 rows × 33 columns"
    ]
@@ -80,10 +71,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [5],
    "source": [
     "DEFINE THE DATASET AND THE ARCHITECTURE"
    ]
@@ -91,10 +80,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [6],
    "source": [
     "# Importing the dataset\n",
     "\n",
@@ -228,9 +215,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "TRAIN VALIDATE AND TEST THE MODEL:"
    ]
@@ -238,10 +223,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [7],
    "source": [
     "def main():\n",
     "    # Initialize the dataset class\n",
@@ -264,9 +247,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "Epoch 1/50\n",
     "15/15 [==============================] - 2s 29ms/step - loss: 1.3545 - accuracy: 0.4813 - val_loss: 0.6546 - val_accuracy: 0.5965\n",
@@ -373,10 +354,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [8],
    "source": [
     "def plot_learning(history,epoch):\n",
     "    epoch_range = range(1,epoch+1)\n",
@@ -400,9 +379,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "*If validation accuracy is greater than Training accuracy it means the model isn't overfitting\n",
     "*unless and untill validation loss goes above the Training loss we can keep on Training our model"
@@ -411,9 +388,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "Model_Accuracy:\n",
     "![__results___19_0](https://user-images.githubusercontent.com/120085689/214452468-15a1da0b-bd2b-4c47-9ee2-fcf41082285d.png)"
@@ -425,10 +400,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [9],
    "source": [
     "from sklearn.metrics import accuracy_score,confusion_matrix\n",
     "accuracy_score(y_test,y_pred)"
@@ -437,9 +410,7 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata":  {},
    "source": [
     "0.9649122807017544"
    ]
@@ -447,10 +418,8 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
-   "outputs": [],
+   "metadata": {},
+   "outputs": [10],
    "source": [
     "import seaborn as sns\n",
     "sns.set_style(\"white\")\n",
@@ -461,18 +430,15 @@
   {
    "attachments": {},
    "cell_type": "code",
-   "metadata": {
-    "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
-   },
+   "metadata": {},
    "source": [
     "<AxesSubplot:>\n",
     "\n",
-    "__results___23_1.png"
+    "![__results___23_1](https://user-images.githubusercontent.com/120085689/214452994-8776d88c-5519-45f7-a407-52ed8590e896.png)"
    ]
   }
  ],
  "metadata": {
-   "id": "dc7ea5349cd165b774b57ef182991aa3c94ade15"
   "language_info": {
    "name": "python"
   },
